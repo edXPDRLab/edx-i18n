@@ -1,0 +1,1096 @@
+# edX translation file
+# This English source file is machine-generated. Do not check it into github.
+# Copyright (C) 2013 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# tosti <tosti.chiang@gmail.com>, 2013
+# JoeyChiou <Joeyc0916@gmail.com>, 2013
+# okalright <iftwoplustwoequalsfive@gmail.com>, 2013
+# okalright <iftwoplustwoequalsfive@gmail.com>, 2013
+# yrchen <yrchen@atcity.org>, 2013
+# yrchen <yrchen@atcity.org>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: translation_team@edx.org\n"
+"POT-Creation-Date: 2013-10-07 17:06-0400\n"
+"PO-Revision-Date: 2013-10-27 18:30+0000\n"
+"Last-Translator: TSHIH <timothykshih@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/edx-platform/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/djangoapps/contentstore/utils.py:22
+msgid "Open Ended Panel"
+msgstr "打開已關閉的面板"
+
+#: cms/djangoapps/contentstore/utils.py:23
+msgid "My Notes"
+msgstr "我的筆記"
+
+#: cms/djangoapps/contentstore/views/assets.py:143
+msgid "Upload completed"
+msgstr "上傳完成"
+
+#: cms/djangoapps/contentstore/views/course.py:116
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr "無法建立課程'{name}'.\n\n{err}"
+
+#: cms/djangoapps/contentstore/views/course.py:127
+msgid ""
+"There is already a course defined with the same organization, course number,"
+" and course run. Please change either organization or course number to be "
+"unique."
+msgstr "已經有一個具有相同機構、課號和課程單元的課程存在，請更改機構或是課號以確保不同於其他課程。"
+
+#: cms/djangoapps/contentstore/views/course.py:131
+#: cms/djangoapps/contentstore/views/course.py:133
+#: cms/djangoapps/contentstore/views/course.py:150
+#: cms/djangoapps/contentstore/views/course.py:152
+msgid ""
+"Please change either the organization or course number so that it is unique."
+msgstr "請更改機構或是課號，讓它有別於其他課程。"
+
+#: cms/djangoapps/contentstore/views/course.py:147
+msgid ""
+"There is already a course defined with the same organization and course "
+"number. Please change at least one field to be unique."
+msgstr "已經有相同機構和課號的課程存在，請至少更動一項資訊，讓它有別於其他課程。"
+
+#: cms/djangoapps/contentstore/views/import_export.py:68
+msgid "We only support uploading a .tar.gz file."
+msgstr "我們僅支援上傳一個 .tar.gz 的檔案。"
+
+#: cms/djangoapps/contentstore/views/import_export.py:105
+msgid "File upload corrupted. Please try again"
+msgstr "檔案上傳毀損。請再試一遍。"
+
+#: cms/djangoapps/contentstore/views/import_export.py:196
+msgid "Could not find the course.xml file in the package."
+msgstr "在這個課程封裝中無法找到 course.xml 檔案。"
+
+#: cms/djangoapps/contentstore/views/user.py:123
+msgid "Insufficient permissions"
+msgstr "權限不足"
+
+#: cms/djangoapps/contentstore/views/user.py:131
+msgid "Could not find user by email address '{email}'."
+msgstr "無法透過 email '{email}' 找到使用者"
+
+#: cms/djangoapps/contentstore/views/user.py:157
+msgid "User {email} has registered but has not yet activated his/her account."
+msgstr "使用者 '{email}' 已經註冊但尚未啟用他/她的帳號"
+
+#: cms/djangoapps/contentstore/views/user.py:175
+#: cms/djangoapps/contentstore/views/user.py:218
+msgid "You may not remove the last instructor from a course"
+msgstr "您不可以移除課程的上一個教師。"
+
+#: cms/djangoapps/contentstore/views/user.py:191
+msgid "malformed JSON"
+msgstr "JSON格式錯誤"
+
+#: cms/djangoapps/contentstore/views/user.py:195
+#: cms/djangoapps/contentstore/views/user.py:198
+msgid "`role` is required"
+msgstr "`role` 為必填"
+
+#: cms/djangoapps/contentstore/views/user.py:204
+msgid "Only instructors may create other instructors"
+msgstr "只有教師可以加入其他教師。"
+
+#: cms/djangoapps/course_creators/models.py:33
+msgid "unrequested"
+msgstr "未經請求的"
+
+#: cms/djangoapps/course_creators/models.py:34
+msgid "pending"
+msgstr "等待中"
+
+#: cms/djangoapps/course_creators/models.py:35
+msgid "granted"
+msgstr "已授權"
+
+#: cms/djangoapps/course_creators/models.py:36
+msgid "denied"
+msgstr "已拒絕"
+
+#: cms/djangoapps/course_creators/models.py:39
+msgid "Studio user"
+msgstr "Studio 使用者"
+
+#: cms/djangoapps/course_creators/models.py:41
+msgid "The date when state was last updated"
+msgstr "上次修改狀態的日期"
+
+#: cms/djangoapps/course_creators/models.py:43
+msgid "Current course creator state"
+msgstr "目前課程創建者的狀態"
+
+#: cms/djangoapps/course_creators/models.py:44
+msgid ""
+"Optional notes about this user (for example, why course creation access was "
+"denied)"
+msgstr "關於使用者的可選提示訊息 (例如：課程創建被拒絕的原因)"
+
+#: common/djangoapps/course_modes/models.py:42
+msgid "Honor Code Certificate"
+msgstr "榮譽證書"
+
+#: common/djangoapps/course_modes/views.py:70
+#: common/djangoapps/student/views.py:389
+msgid "Enrollment is closed"
+msgstr "註冊功能已經關閉"
+
+#: common/djangoapps/course_modes/views.py:79
+msgid "Enrollment mode not supported"
+msgstr "註冊模式未受支援"
+
+#: common/djangoapps/course_modes/views.py:95
+msgid "Invalid amount selected."
+msgstr "選擇了無效的金額。"
+
+#: common/djangoapps/course_modes/views.py:100
+msgid "No selected price or selected price is too low."
+msgstr "沒有選擇價格或選擇的價格太低。"
+
+#: common/djangoapps/student/views.py:373
+msgid "Course id not specified"
+msgstr "未指定課程編號"
+
+#: common/djangoapps/student/views.py:386
+msgid "Course id is invalid"
+msgstr "課程編號無效"
+
+#: common/djangoapps/student/views.py:440
+msgid "You are not enrolled in this course"
+msgstr "你還沒有註冊本課程"
+
+#: common/djangoapps/student/views.py:442
+msgid "Enrollment action is invalid"
+msgstr "註冊操作無效"
+
+#: common/djangoapps/student/views.py:494
+msgid "There was an error receiving your login information. Please email us."
+msgstr "接受你的登入訊息時發生錯誤，請用電子郵件與我們聯絡。"
+
+#: common/djangoapps/student/views.py:525
+msgid "Too many failed login attempts. Try again later."
+msgstr "登錄失敗多次，請稍後再試！"
+
+#: common/djangoapps/student/views.py:532
+msgid "Email or password is incorrect."
+msgstr "電子郵件或密碼錯誤"
+
+#: common/djangoapps/student/views.py:579
+msgid ""
+"This account has not been activated. We have sent another activation "
+"message. Please check your e-mail for the activation instructions."
+msgstr "該帳戶尚未啟動！我們已經給您寄送了關於帳戶啟動的電子郵件，請檢查您的電子郵件信箱。"
+
+#: common/djangoapps/student/views.py:641
+msgid "An account with the Public Username '{username}' already exists."
+msgstr "用戶名'{username}'對應的帳戶已經存在。"
+
+#: common/djangoapps/student/views.py:646
+msgid "An account with the Email '{email}' already exists."
+msgstr "電子郵件'{email}'對應的帳戶已存在。"
+
+#: common/djangoapps/student/views.py:707
+msgid "Error (401 {field}). E-mail us."
+msgstr "錯誤(401 {字段}), 請給我們發電子郵件。"
+
+#: common/djangoapps/student/views.py:712
+msgid "To enroll, you must follow the honor code."
+msgstr "您必須遵循榮譽準則才能註冊。"
+
+#: common/djangoapps/student/views.py:724
+msgid "You must accept the terms of service."
+msgstr "您必須接受本服務條款。"
+
+#: common/djangoapps/student/views.py:753
+msgid "Valid e-mail is required."
+msgstr "需要有效的電子郵件地址。"
+
+#: common/djangoapps/student/views.py:760
+msgid "Username should only consist of A-Z and 0-9, with no spaces."
+msgstr "用戶名應當包含英文字母A到Z，阿拉伯數字0到9，並且不能包含空格。"
+
+#: common/djangoapps/student/views.py:792
+msgid "Could not send activation e-mail."
+msgstr "無法寄送啟動帳號的信件。"
+
+#: common/djangoapps/student/views.py:1100
+msgid "Unknown error. Please e-mail us to let us know how it happened."
+msgstr "未知錯誤。請給我們發電子郵件，告知錯誤是如何發生的。"
+
+#: common/djangoapps/student/views.py:1119
+msgid "Invalid e-mail or user"
+msgstr "無效電子郵件或使用者。"
+
+#: common/djangoapps/student/views.py:1151
+msgid "No inactive user with this e-mail exists"
+msgstr "本郵件地址沒有非啟動用戶。"
+
+#: common/djangoapps/student/views.py:1164
+msgid "Unable to send reactivation email"
+msgstr "無法發送再次啟動的電子郵件。"
+
+#: common/djangoapps/student/views.py:1181
+msgid "Invalid password"
+msgstr "無效的密碼。"
+
+#: common/djangoapps/student/views.py:1188
+msgid "Valid e-mail address required."
+msgstr "需要有效的電子郵件地址。"
+
+#: common/djangoapps/student/views.py:1193
+msgid "An account with this e-mail already exists."
+msgstr "該郵件地址已經有一個帳號。"
+
+#: common/djangoapps/student/views.py:1209
+msgid "Old email is the same as the new email."
+msgstr "新郵件地址與舊郵件地址相同。"
+
+#: common/djangoapps/student/views.py:1298
+msgid "Name required"
+msgstr "需要姓名。"
+
+#: common/djangoapps/student/views.py:1333
+#: common/djangoapps/student/views.py:1343
+msgid "Invalid ID"
+msgstr "無效的 ID"
+
+#: common/lib/xmodule/xmodule/capa_module.py:356
+msgid "Check"
+msgstr "檢查"
+
+#: common/lib/xmodule/xmodule/capa_module.py:357
+msgid "Final Check"
+msgstr "最後檢查"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:23
+msgid "Navigation"
+msgstr "導航"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:123
+msgid "About these documents"
+msgstr "關於這份文件"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:126
+msgid "Index"
+msgstr "索引"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:129
+#: lms/templates/wiki/plugins/attachments/index.html:40
+msgid "Search"
+msgstr "搜尋"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:132
+msgid "Copyright"
+msgstr "版權"
+
+#: lms/djangoapps/courseware/features/video.py:114
+msgid "ERROR: No playable video sources found!"
+msgstr "錯誤：找不到可播放的影音來源！"
+
+#: lms/djangoapps/django_comment_client/base/views.py:603
+#, python-format
+msgid "allowed file types are '%(file_types)s'"
+msgstr "允許的文件類型包含 '%(file_types)s'"
+
+#: lms/djangoapps/django_comment_client/base/views.py:618
+#, python-format
+msgid "maximum upload file size is %(file_size)sK"
+msgstr "上傳文件的最大容量是 %(file_size)s KB"
+
+#: lms/djangoapps/django_comment_client/base/views.py:627
+msgid ""
+"Error uploading file. Please contact the site administrator. Thank you."
+msgstr "上傳文件出現問題，請聯絡網站管理員，謝謝。"
+
+#: lms/djangoapps/instructor/views/api.py:57
+msgid "User does not exist."
+msgstr "該使用者不存在。"
+
+#: lms/djangoapps/instructor/views/api.py:63
+msgid "Task is already running."
+msgstr "任務已在進行中。"
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:86
+msgid "Course Info"
+msgstr "課程訊息"
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:115
+msgid "Membership"
+msgstr "會員"
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:131
+msgid "Student Admin"
+msgstr "學生管理員"
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:145
+msgid "Data Download"
+msgstr "資料下載"
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:157
+msgid "Analytics"
+msgstr "分析"
+
+#: lms/djangoapps/open_ended_grading/utils.py:22
+msgid "AI Assessment"
+msgstr "AI評估"
+
+#: lms/djangoapps/open_ended_grading/utils.py:23
+msgid "Peer Assessment"
+msgstr "同儕互評"
+
+#: lms/djangoapps/open_ended_grading/utils.py:24
+msgid "Not yet available"
+msgstr "尚未公佈"
+
+#: lms/djangoapps/open_ended_grading/utils.py:25
+msgid "Automatic Checker"
+msgstr "自動檢查"
+
+#: lms/djangoapps/open_ended_grading/utils.py:26
+msgid "Instructor Assessment"
+msgstr "授課教師評估"
+
+#: lms/djangoapps/open_ended_grading/utils.py:29
+msgid ""
+"Error occurred while contacting the grading service.  Please notify course "
+"staff."
+msgstr "連結評分服務時發生錯誤。請通知課程人員。"
+
+#: lms/djangoapps/open_ended_grading/utils.py:30
+msgid ""
+"Error occurred while contacting the grading service.  Please notify your edX"
+" point of contact."
+msgstr "連結評分服務時發生錯誤。請通知edX服務人員。"
+
+#: lms/djangoapps/open_ended_grading/utils.py:103
+msgid "for course {0} and student {1}."
+msgstr "對於課程{0}和學生{1}。"
+
+#: lms/djangoapps/open_ended_grading/views.py:50
+msgid ""
+"View all problems that require peer assessment in this particular course."
+msgstr "查看所有在這個特殊課程中需要同儕互評的問題。"
+
+#: lms/djangoapps/open_ended_grading/views.py:51
+msgid ""
+"View ungraded submissions submitted by students for the open ended problems "
+"in the course."
+msgstr "查看學生在課程中未批改的開放式問題所提交的意見。"
+
+#: lms/djangoapps/open_ended_grading/views.py:52
+msgid ""
+"View open ended problems that you have previously submitted for grading."
+msgstr "查看您過去提交要批改的開放式問題。"
+
+#: lms/djangoapps/open_ended_grading/views.py:53
+msgid "View submissions that have been flagged by students as inappropriate."
+msgstr "查看已經被學生標記為不適當的提交意見 。"
+
+#: lms/djangoapps/open_ended_grading/views.py:57
+#: lms/djangoapps/open_ended_grading/views.py:58
+msgid "New submissions to grade"
+msgstr "新的提交到級別"
+
+#: lms/djangoapps/open_ended_grading/views.py:59
+msgid "New grades have been returned"
+msgstr "已回傳新的級別"
+
+#: lms/djangoapps/open_ended_grading/views.py:60
+msgid "Submissions have been flagged for review"
+msgstr "已被標記為待審查的提交。"
+
+#: lms/djangoapps/open_ended_grading/views.py:128
+msgid ""
+"\n"
+"        Error with initializing peer grading.\n"
+"        There has not been a peer grading module created in the courseware that would allow you to grade others.\n"
+"        Please check back later for this.\n"
+"        "
+msgstr "\n同儕評分初始化時發生錯誤。\n此教材中的同儕互評機制未被創建，所以未核准您對他人進行評級。\n請稍後再回來檢查此處。"
+
+#: lms/djangoapps/shoppingcart/models.py:159
+msgid "Order Payment Confirmation"
+msgstr "訂單付款確認"
+
+#: lms/djangoapps/shoppingcart/models.py:227
+msgid "Trying to add a different currency into the cart"
+msgstr "增加不同的貨幣到購物車"
+
+#: lms/djangoapps/shoppingcart/models.py:387
+msgid ""
+"Please visit your <a href=\"{dashboard_link}\">dashboard</a> to see your new"
+" enrollments."
+msgstr "請拜訪您的 <a href=\"{dashboard_link}\">dashboard</a> 去察看您新的 enrollments."
+
+#: lms/djangoapps/shoppingcart/models.py:432
+msgid "Mode {mode} does not exist for {course_id}"
+msgstr "{course_id}的 {mode} 模式並不存在。"
+
+#: lms/djangoapps/shoppingcart/models.py:444
+msgid "Certificate of Achievement, {mode_name} for course {course}"
+msgstr " 模式{mode_name} 課程 {course}的成績證明書。"
+
+#: lms/djangoapps/shoppingcart/models.py:489
+msgid ""
+"Note - you have up to 2 weeks into the course to unenroll from the Verified "
+"Certificate option and receive a full refund. To receive your refund, "
+"contact {billing_email}. Please include your order number in your e-mail. "
+"Please do NOT include your credit card information."
+msgstr "注意 - 您有長達2週的進入課程取消註冊認證書選項，並獲得全額退款。\n要收到您的退款，聯繫 {billing_email}。在您的信件中需包含您的訂單號碼。但請不要包含您的信用卡資訊。"
+
+#: lms/djangoapps/shoppingcart/views.py:25
+msgid "You must be logged-in to add to a shopping cart"
+msgstr "您必須登錄才能增加到購物車"
+
+#: lms/djangoapps/shoppingcart/views.py:31
+#: lms/djangoapps/shoppingcart/tests/test_views.py:82
+msgid "The course you requested does not exist."
+msgstr "您請求的課程不存在。"
+
+#: lms/djangoapps/shoppingcart/views.py:33
+#: lms/djangoapps/shoppingcart/tests/test_views.py:69
+msgid "The course {0} is already in your cart."
+msgstr "課程 {0} 已經在您的購物車中"
+
+#: lms/djangoapps/shoppingcart/views.py:35
+#: lms/djangoapps/shoppingcart/tests/test_views.py:76
+msgid "You are already registered in course {0}."
+msgstr "您已經在課程 {0} 中註冊。"
+
+#: lms/djangoapps/shoppingcart/views.py:36
+msgid "Course added to cart."
+msgstr "增加課程到購物車。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:147
+msgid "The payment processor did not return a required parameter: {0}"
+msgstr "付款處理器沒有返回所需的參數：{0}"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:153
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:168
+msgid "The payment processor returned a badly-typed value {0} for param {1}."
+msgstr "對於參數 {1} ，付款處理器返回一個錯誤類型值 {0} 。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:159
+msgid ""
+"The payment processor accepted an order whose number is not in our system."
+msgstr "付款處理器接受了一個訂單，但號碼不存在於我們的系統中。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:179
+msgid ""
+"The amount charged by the processor {0} {1} is different than the total cost"
+" of the order {2} {3}."
+msgstr "處理器收取的金額 {0} {1} 與訂單中的總消費 {2} {3} 不一致。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:307
+msgid "Successful transaction."
+msgstr "交易成功。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:308
+msgid "The request is missing one or more required fields."
+msgstr "使用者的請求缺少了一個或多個必填的欄位"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:309
+msgid "One or more fields in the request contains invalid data."
+msgstr "此項請求中的一個或多個欄位包含了無效資料。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:316
+msgid ""
+"Error: General system failure. Possible fix: retry the payment after a few "
+"minutes."
+msgstr "錯誤：系統故障。可能的解決方法：幾分鐘後重試付款。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:328
+msgid ""
+"The issuing bank has questions about the request. Possible fix: retry with "
+"another form of payment"
+msgstr "發卡銀行對於此項請求有問題。可能的解決方法：重試另一種付款方式。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:340
+msgid ""
+"Insufficient funds in the account. Possible fix: retry with another form of "
+"payment"
+msgstr "帳戶中的資金不足。可能的解決方法：重試另一種付款方式"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:342
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:353
+msgid "Unknown reason"
+msgstr "未知的原因"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:343
+msgid ""
+"Issuing bank unavailable. Possible fix: retry again after a few minutes"
+msgstr "發卡銀行無法使用。可能的解決方法：幾分鐘後重試"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:349
+msgid ""
+"The card has reached the credit limit. Possible fix: retry with another form"
+" of payment"
+msgstr "信用卡已達信用限額。可能的解決方法：重試另一種付款方式"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:350
+msgid ""
+"Invalid card verification number. Possible fix: retry with another form of "
+"payment"
+msgstr "無效的信用卡驗證碼。可能的解決方法：重試另一種付款方式"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:354
+msgid ""
+"Invalid account number. Possible fix: retry with another form of payment"
+msgstr "無效的帳戶號碼。可能的解決方法：重試另一種付款方式"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:360
+msgid ""
+"General decline by the processor.  Possible fix: retry with another form of "
+"payment"
+msgstr "被處理器拒絕。可能的解決方法：重試另一種付款方式"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:366
+msgid "The requested amount exceeds the originally authorized amount."
+msgstr "所請求的數額超過最初授權的金額。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:367
+msgid "Processor Failure.  Possible fix: retry the payment"
+msgstr "處理器故障。可能的解決方法：重試支付。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:369
+msgid "The authorization has already been captured"
+msgstr "已經獲取授權"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:372
+msgid ""
+"The requested transaction amount must match the previous transaction amount."
+msgstr "請求的交易金額必須與先前的交易金額一致。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:380
+msgid "The request ID is invalid."
+msgstr "請求的ID是無效的。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:390
+msgid "The transaction has already been settled or reversed."
+msgstr "該交易已經得到完成或已取消。"
+
+#: lms/djangoapps/shoppingcart/processors/CyberSource.py:398
+msgid "You requested a credit for a capture that was previously voided"
+msgstr "您請求的學分之前已經作廢"
+
+#: lms/djangoapps/verify_student/views.py:147
+msgid "Selected price is not valid number."
+msgstr "選擇的價格是無效的數字。"
+
+#: lms/djangoapps/verify_student/views.py:157
+msgid "This course doesn't support verified certificates"
+msgstr "這個課程並不支援認證書。"
+
+#: lms/djangoapps/verify_student/views.py:160
+msgid "No selected price or selected price is below minimum."
+msgstr "沒有選擇價格或是選擇價格低於最小值。"
+
+#: lms/templates/registration/password_reset_complete.html:8
+#: lms/templates/registration/password_reset_complete.html:56
+msgid "Your Password Reset is Complete"
+msgstr "您的密碼已重設完成"
+
+#: lms/templates/registration/password_reset_complete.html:62
+#, python-format
+msgid ""
+"\n"
+"      Your password has been set.  You may go ahead and %(link_start)slog in%(link_end)s now.\n"
+"      "
+msgstr "\n您的密碼已經設定。您現在可以前進並且 %(link_start)s登錄%(link_end)s 。⏎"
+
+#: lms/templates/registration/password_reset_confirm.html:9
+#, python-format
+msgid ""
+"\n"
+"      Reset Your %(platform_name)s Password\n"
+"  "
+msgstr "\n重置您的 %(platform_name)s 密碼"
+
+#: lms/templates/registration/password_reset_confirm.html:61
+#, python-format
+msgid ""
+"\n"
+"          Reset Your %(platform_name)s Password\n"
+"          "
+msgstr "\n重設您的 %(platform_name)s 密碼"
+
+#: lms/templates/registration/password_reset_confirm.html:71
+msgid "Password Reset Form"
+msgstr "密碼重設申請表"
+
+#: lms/templates/registration/password_reset_confirm.html:78
+#, python-format
+msgid ""
+"\n"
+"                We're sorry, %(platform_name)s enrollment is not available in your region\n"
+"            "
+msgstr "\n很抱歉，您所在的區域 %(platform_name)s 無法註冊"
+
+#: lms/templates/registration/password_reset_confirm.html:85
+msgid "The following errors occured while processing your registration: "
+msgstr "在處理您的註冊時發生了下列錯誤："
+
+#: lms/templates/registration/password_reset_confirm.html:87
+msgid "You must complete all fields."
+msgstr "您必須完成所有的欄位。"
+
+#: lms/templates/registration/password_reset_confirm.html:88
+msgid "The two password fields didn't match."
+msgstr "兩個密碼欄位中的內容不相同。"
+
+#: lms/templates/registration/password_reset_confirm.html:93
+msgid ""
+"We're sorry, our systems seem to be having trouble processing your password "
+"reset"
+msgstr "很抱歉，我們的系統在重設您的密碼時似乎出現了問題。"
+
+#: lms/templates/registration/password_reset_confirm.html:95
+#, python-format
+msgid ""
+"\n"
+"                Someone has been made aware of this issue. Please try again shortly. Please %(start_link)scontact us%(end_link)s about any concerns you have.\n"
+"            "
+msgstr "\n已經有人提出這個問題。請之後再試。如果您有任何顧慮請 %(start_link)s 聯繫我們 %(end_link)s "
+
+#: lms/templates/registration/password_reset_confirm.html:102
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly. <br /> Required fields are noted by <strong "
+"class=\"indicator\">bold text and an asterisk (*)</strong>."
+msgstr "請輸入您的新密碼兩次以確保正確。<br /> 需要填寫的欄位已經使用 <strong class=\"indicator\"> 粗體和星號 (*) 標明 </strong>."
+
+#: lms/templates/registration/password_reset_confirm.html:106
+msgid "Required Information"
+msgstr "需要的資訊"
+
+#: lms/templates/registration/password_reset_confirm.html:110
+msgid "Your New Password"
+msgstr "請輸入您的新密碼"
+
+#: lms/templates/registration/password_reset_confirm.html:114
+msgid "Your New Password Again"
+msgstr "請再次輸入您的新密碼"
+
+#: lms/templates/registration/password_reset_confirm.html:121
+msgid "Change My Password"
+msgstr "修改我的密碼"
+
+#: lms/templates/registration/password_reset_confirm.html:128
+msgid "Your Password Reset Was Unsuccessful"
+msgstr "您的密碼重設失敗"
+
+#: lms/templates/registration/password_reset_confirm.html:131
+#, python-format
+msgid ""
+"\n"
+"            The password reset link was invalid, possibly because the link has already been used.  Please return to the %(start_link)slogin page%(end_link)s and start the password reset process again.\n"
+"        "
+msgstr "\n密碼重設的連結無效，可能因為連結已經被使用。請回到 %(start_link)s 登錄頁面 %(end_link)s 重新開始密碼重設過程。"
+
+#: lms/templates/registration/password_reset_confirm.html:141
+msgid "Password Reset Help"
+msgstr "密碼重設説明"
+
+#: lms/templates/registration/password_reset_confirm.html:145
+msgid "Need Help?"
+msgstr "需要幫助？"
+
+#: lms/templates/registration/password_reset_confirm.html:147
+#, python-format
+msgid ""
+"\n"
+"              View our %(start_link)shelp section for contact information and answers to commonly asked questions%(end_link)s\n"
+"          "
+msgstr "\n查看我們的 %(start_link)s 説明區以尋找聯繫資訊和常見問題解答 %(end_link)s"
+
+#: lms/templates/registration/password_reset_email.html:2
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at edx.org."
+msgstr "由於您向系統請求重置密碼，系統將發一封關於帳戶密碼的電子郵件給您，請檢查信箱。"
+
+#: lms/templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "請到下面的頁面並選擇一個新的密碼："
+
+#: lms/templates/registration/password_reset_email.html:11
+msgid "Thanks for using our site!"
+msgstr "感謝您使用我們的網站！"
+
+#: lms/templates/registration/password_reset_email.html:13
+msgid "The edX Team"
+msgstr "edX 團隊"
+
+#: lms/templates/wiki/article.html:31
+msgid "Last modified:"
+msgstr "最後修改日期："
+
+#: lms/templates/wiki/article.html:37
+msgid "See all children"
+msgstr "查看所有子文章"
+
+#: lms/templates/wiki/article.html:48
+msgid "This article was last modified:"
+msgstr "這篇文章最後修改於："
+
+#: lms/templates/wiki/create.html:5 lms/templates/wiki/create.html.py:30
+msgid "Add new article"
+msgstr "增加新文章"
+
+#: lms/templates/wiki/create.html:37
+msgid "Create article"
+msgstr "創建文章"
+
+#: lms/templates/wiki/create.html:42 lms/templates/wiki/delete.html:13
+#: lms/templates/wiki/delete.html.py:54
+msgid "Go back"
+msgstr "返回"
+
+#: lms/templates/wiki/delete.html:5 lms/templates/wiki/delete.html.py:50
+#: lms/templates/wiki/edit.html:23
+msgid "Delete article"
+msgstr "刪除文章"
+
+#: lms/templates/wiki/delete.html:9
+#: lms/templates/wiki/plugins/attachments/index.html:92
+msgid "Delete"
+msgstr "刪除"
+
+#: lms/templates/wiki/delete.html:12
+msgid "You cannot delete a root article."
+msgstr "您沒有權限刪除這篇文章。"
+
+#: lms/templates/wiki/delete.html:18
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr "您沒有權限一次刪除這篇文章及其子文章，您可以嘗試先手動逐一刪除子文章，然後再刪除這篇文章。"
+
+#: lms/templates/wiki/delete.html:24
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr "刪除這篇文章將會導致相關子文章會同時被刪除。"
+
+#: lms/templates/wiki/delete.html:26
+msgid "Articles that will be deleted"
+msgstr "文章將被刪除"
+
+#: lms/templates/wiki/delete.html:32
+msgid "...and more!"
+msgstr "...還有更多！"
+
+#: lms/templates/wiki/delete.html:40
+msgid "You are deleting an article. Please confirm."
+msgstr "您確定要刪除這篇文章嗎？"
+
+#: lms/templates/wiki/edit.html:5
+msgid "Edit"
+msgstr "編輯"
+
+#: lms/templates/wiki/edit.html:14 lms/templates/wiki/edit.html.py:34
+msgid "Save changes"
+msgstr "儲存修改"
+
+#: lms/templates/wiki/edit.html:18
+msgid "Preview"
+msgstr "預覽"
+
+#: lms/templates/wiki/edit.html:39
+msgid "Back to editor"
+msgstr "返回編輯器"
+
+#: lms/templates/wiki/history.html:5
+msgid "History"
+msgstr "歷史記錄"
+
+#: lms/templates/wiki/history.html:56
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr "點擊每一個版本，您將會看到被編輯行的列表。點擊預覽按鈕，您可以看到這篇文章目前的狀態。在頁面的底部，您可以指定一個版本，或者合併兩個現存的版本生成新版本。"
+
+#: lms/templates/wiki/history.html:75
+msgid "no log message"
+msgstr "沒有日誌訊息"
+
+#: lms/templates/wiki/history.html:87
+msgid "Preview this revision"
+msgstr "預覽本次修改"
+
+#: lms/templates/wiki/history.html:101
+msgid "Auto log:"
+msgstr "自動日誌:"
+
+#: lms/templates/wiki/history.html:109
+msgid "Change"
+msgstr "修改"
+
+#: lms/templates/wiki/history.html:127 lms/templates/wiki/history.html:132
+msgid "Merge selected with current..."
+msgstr "合併選擇項和當前項..."
+
+#: lms/templates/wiki/history.html:137
+msgid "Switch to selected version"
+msgstr "切換到選擇的版本"
+
+#: lms/templates/wiki/history.html:153 lms/templates/wiki/history.html:180
+msgid "Back to history view"
+msgstr "返回歷史檢視"
+
+#: lms/templates/wiki/history.html:158 lms/templates/wiki/history.html:163
+msgid "Switch to this version"
+msgstr "切換到這個版本"
+
+#: lms/templates/wiki/history.html:171
+msgid "Merge with current"
+msgstr "和當前的版本合併"
+
+#: lms/templates/wiki/history.html:172
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr "當您給當前版本加入一個修改，所有的資料都會被保留。修改資訊將會合併到系統擇優選擇的位置。"
+
+#: lms/templates/wiki/history.html:172
+msgid "After this, it's important to do a manual review."
+msgstr "請在完成之後做人工審查。"
+
+#: lms/templates/wiki/history.html:185 lms/templates/wiki/history.html:190
+msgid "Create new merged version"
+msgstr "創建新的已合併後的版本"
+
+#: lms/templates/wiki/preview_inline.html:13
+msgid "Previewing revision"
+msgstr "預覽修改"
+
+#: lms/templates/wiki/preview_inline.html:20
+msgid "Previewing merge between"
+msgstr "預覽合併效果"
+
+#: lms/templates/wiki/preview_inline.html:22
+msgid "and"
+msgstr "和"
+
+#: lms/templates/wiki/preview_inline.html:31
+msgid "This revision has been deleted."
+msgstr "這次修改已被刪除。"
+
+#: lms/templates/wiki/preview_inline.html:32
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "復原這項修改可能會讓這篇文章標記為刪除狀態。"
+
+#: lms/templates/wiki/includes/anonymous_blocked.html:7
+#, python-format
+msgid ""
+"\n"
+"  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
+"  "
+msgstr "\n您必須<a href=\"%(login_url)s\">登錄</a>或<a href=\"%(signup_url)s\">註冊</a>才能使用這項功能。"
+
+#: lms/templates/wiki/includes/anonymous_blocked.html:11
+msgid "You need to log in or sign up to use this function."
+msgstr "您需要註冊或者登錄才能使用這個功能。"
+
+#: lms/templates/wiki/includes/cheatsheet.html:7
+msgid "Wiki Syntax Help"
+msgstr "維基百科語法編寫説明"
+
+#: lms/templates/wiki/includes/cheatsheet.html:8
+msgid ""
+"This wiki uses <strong>Markdown</strong> for styling. There are several "
+"useful guides online. See any of the links below for in-depth details:"
+msgstr "這個維基百科使用 <strong>Markdown</strong> 語法來排版，網路上有許多有用的指南，如果想熟練使用，請點擊以下連結："
+
+#: lms/templates/wiki/includes/cheatsheet.html:10
+msgid "Markdown: Basics"
+msgstr "Markdown：基礎知識"
+
+#: lms/templates/wiki/includes/cheatsheet.html:11
+msgid "Quick Markdown Syntax Guide"
+msgstr "快速 Markdown 語法指南"
+
+#: lms/templates/wiki/includes/cheatsheet.html:12
+msgid "Miniature Markdown Guide"
+msgstr "簡明 Markdown 語法指南"
+
+#: lms/templates/wiki/includes/cheatsheet.html:14
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr "要創建一篇新的維基百科條目，先為它創建連結。點擊連結後，會導向自動創建頁面。"
+
+#: lms/templates/wiki/includes/cheatsheet.html:15
+msgid "[Article Name](wiki:ArticleName)"
+msgstr "[文章名稱](wiki:ArticleName)"
+
+#. Translators: Do not translate "edX"
+#: lms/templates/wiki/includes/cheatsheet.html:21
+msgid "edX Additions:"
+msgstr "edX 附加："
+
+#: lms/templates/wiki/includes/cheatsheet.html:31
+msgid "Useful examples:"
+msgstr "實用的例子："
+
+#. Translators: Do not translate "edX" or "Wikipedia"
+#: lms/templates/wiki/includes/cheatsheet.html:36
+msgid "http://wikipedia.org"
+msgstr "http://wikipedia.org"
+
+#: lms/templates/wiki/includes/cheatsheet.html:37
+msgid "[Wikipedia](http://wikipedia.org)"
+msgstr "[維基百科](http://wikipedia.org)"
+
+#: lms/templates/wiki/includes/cheatsheet.html:38
+msgid "[edX Wiki](wiki:/edx/)"
+msgstr "[edX 維基](wiki:/edx/)"
+
+#: lms/templates/wiki/includes/cheatsheet.html:41
+msgid "Huge Header"
+msgstr "超大標題"
+
+#: lms/templates/wiki/includes/cheatsheet.html:44
+msgid "Smaller Header"
+msgstr "較小的標題"
+
+#: lms/templates/wiki/includes/cheatsheet.html:47
+msgid "*emphasis* or _emphasis_"
+msgstr "*重點* or _重點_"
+
+#: lms/templates/wiki/includes/cheatsheet.html:49
+msgid "**strong** or __strong__"
+msgstr "**強調** or __強調__"
+
+#: lms/templates/wiki/includes/cheatsheet.html:51
+msgid "Unordered List"
+msgstr "未排序的列表"
+
+#: lms/templates/wiki/includes/cheatsheet.html:52
+msgid "Sub Item 1"
+msgstr "子項目1"
+
+#: lms/templates/wiki/includes/cheatsheet.html:53
+msgid "Sub Item 2"
+msgstr "子項目2"
+
+#: lms/templates/wiki/includes/cheatsheet.html:55
+msgid "Ordered"
+msgstr "有序的"
+
+#: lms/templates/wiki/includes/cheatsheet.html:56
+msgid "List"
+msgstr "列表"
+
+#: lms/templates/wiki/includes/cheatsheet.html:58
+msgid "Quotes"
+msgstr "引言"
+
+#. Translators: Do not translate 'cheatsheetLink'
+#: lms/templates/wiki/includes/editor_widget.html:7
+#, python-format
+msgid ""
+"\n"
+"\t    Markdown syntax is allowed. See the %(start_link)scheatsheet%(end_link)s for help.\n"
+"\t"
+msgstr "\n允許Markdown語法。查看%(start_link)s 備忘 %(end_link)s 以獲得幫助"
+
+#: lms/templates/wiki/plugins/attachments/index.html:5
+msgid "Attachments"
+msgstr "附件"
+
+#: lms/templates/wiki/plugins/attachments/index.html:14
+msgid "Upload new file"
+msgstr "上傳新的檔案"
+
+#: lms/templates/wiki/plugins/attachments/index.html:17
+msgid "Search and add file"
+msgstr "搜尋及新增檔案"
+
+#: lms/templates/wiki/plugins/attachments/index.html:23
+msgid "Upload File"
+msgstr "上傳檔案"
+
+#: lms/templates/wiki/plugins/attachments/index.html:27
+msgid "Upload file"
+msgstr "上傳檔案"
+
+#: lms/templates/wiki/plugins/attachments/index.html:35
+msgid "Search files and articles"
+msgstr "搜尋檔案和文章"
+
+#: lms/templates/wiki/plugins/attachments/index.html:36
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr "您可以從其他文章中重複使用檔案。"
+
+#: lms/templates/wiki/plugins/attachments/index.html:65
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr "下列檔案與這篇文章相關，請使用markdown標記直接指向這些檔案。"
+
+#: lms/templates/wiki/plugins/attachments/index.html:74
+msgid "deleted"
+msgstr "刪除"
+
+#: lms/templates/wiki/plugins/attachments/index.html:84
+msgid "Markdown tag"
+msgstr "Markdown標記"
+
+#: lms/templates/wiki/plugins/attachments/index.html:85
+msgid "Uploaded by"
+msgstr "上傳者是"
+
+#: lms/templates/wiki/plugins/attachments/index.html:86
+msgid "Size"
+msgstr "大小"
+
+#: lms/templates/wiki/plugins/attachments/index.html:87
+msgid "File History"
+msgstr "檔案歷史紀錄"
+
+#: lms/templates/wiki/plugins/attachments/index.html:94
+msgid "Detach"
+msgstr "卸離"
+
+#: lms/templates/wiki/plugins/attachments/index.html:97
+msgid "Replace"
+msgstr "取代"
+
+#: lms/templates/wiki/plugins/attachments/index.html:104
+msgid "Restore"
+msgstr "復原"
+
+#: lms/templates/wiki/plugins/attachments/index.html:115
+msgid "anonymous (IP logged)"
+msgstr "匿名 (已記錄 IP)"
+
+#: lms/templates/wiki/plugins/attachments/index.html:122
+msgid "File history"
+msgstr "檔案歷史"
+
+#: lms/templates/wiki/plugins/attachments/index.html:122
+msgid "revisions"
+msgstr "修改"
+
+#: lms/templates/wiki/plugins/attachments/index.html:130
+msgid "There are no attachments for this article."
+msgstr "這篇文章沒有附件"
